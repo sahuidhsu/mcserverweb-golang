@@ -49,7 +49,7 @@ func getConfig() Config {
 //请求MotdPE API
 //https://wiki.blackbe.xyz/api/motd.html
 func getMotdBE(ip string, port string) MotdBEJson {
-	url := "https://motdbe.blackbe.xyz/api?host=" + ip + ":" + port
+	url := "https://motdbe.blackbe.xyz/api/java?host=" + ip + ":" + port
 	client := http.Client{Timeout: 10 * time.Second} //设置10秒超时
 	res, err := client.Get(url)
 	if err != nil {
