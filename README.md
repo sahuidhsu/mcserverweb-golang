@@ -1,5 +1,5 @@
 # mcserverweb-golang
-我的世界基岩版服务器官网模板的Golang版本
+我的世界Java版服务器官网模板的Golang版本
 
 通过编辑config.json即可搭建一个我的世界服务器官网
 
